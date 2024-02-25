@@ -1,0 +1,20 @@
+body{
+    background-color:yellow;
+}
+
+#show_sketches{
+    float: right;
+}
+
+canvas{
+    border: 5px white;
+    border-radius: 20px;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas{
+    from{box-shadow:5px 5px 38px grey;}
+    to{box-shadow: 5px 5px 38px red;}
+}
